@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import {Table, Col, Row, Grid, FormGroup, ControlLabel, FormControl, Button} from 'react-bootstrap';
+import {Table, Col, Row, FormGroup, ControlLabel} from 'react-bootstrap';
 import './App.css';
-import $ from 'jquery';
-import ReactDOM from 'react-dom';
 
 class App extends Component {
 
@@ -65,7 +63,6 @@ constructor(props) {
       .then(
          (result) => {
           var getCurrency = require('country-currency-map').getCurrency;
-          var getCountry = require('country-currency-map').getCountry;
 
           var amount = result.rates[val] * value_amount;
           var formatter = new Intl.NumberFormat('en-US', {
