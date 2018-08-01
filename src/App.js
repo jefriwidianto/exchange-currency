@@ -16,7 +16,6 @@ constructor(props) {
       country:{},
       formatter:{},
       value_amount: 10000,
-      kamvret: "<td onClick={this.deleteRow}>(-)</td>"
     };
   }
 
@@ -202,7 +201,7 @@ constructor(props) {
               <option value="KRW">KRW</option>
             </FormControl>
           </FormGroup>
-          <input id="Button1" type="button" value="Add New"  onClick={this.AddItemInList}/>
+          <input id="Button1" type="button" value="Submit"  onClick={this.AddItemInList}/>
         </Col>
         <Col xsHidden md={4}></Col>
       </Row>
