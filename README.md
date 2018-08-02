@@ -19,3 +19,6 @@
  
 # Comment Run Dockerfile in CMD:
  - docker run -it --rm --name my-running-app react-docker
+ 
+ # Link Repository react-docker
+ - tag images latest : https://hub.docker.com/r/jefriwidianto/react-docker/tags/
