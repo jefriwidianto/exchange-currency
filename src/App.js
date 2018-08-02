@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import {Table, Col, Row, FormGroup, ControlLabel} from 'react-bootstrap';
+import {Table, Col, Row, FormGroup, FormControl} from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
