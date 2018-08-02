@@ -13,7 +13,9 @@
       "react-jsx": "^1.0.0",
       "react-scripts": "1.1.4"
     }
-    
+
+Note: you can run plugin depedencis with CMD with comment /path_app/npm update.
+
 # Comment Build Dockerfile in CMD:
  - docker build -t react-docker -f ./Dockerfile.txt .
  
