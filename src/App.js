@@ -20,7 +20,7 @@ constructor(props) {
   }
 
   componentDidMount() {
-    fetch("https://exchangeratesapi.io/api/latest?base=USD")
+    fetch("https://api.exchangeratesapi.io/latest?base=USD")
       .then(res => res.json())
       .then(
          (result) => {
@@ -57,7 +57,7 @@ constructor(props) {
       var val = list.options[list.selectedIndex].value;
       var value_amount = document.getElementById('test1').innerHTML;
 
-      fetch("https://exchangeratesapi.io/api/latest?base=USD&symbols=" +val+"")
+      fetch("https://api.exchangeratesapi.io/latest?base=USD&symbols=" +val+"")
       .then(res => res.json())
       .then(
          (result) => {
